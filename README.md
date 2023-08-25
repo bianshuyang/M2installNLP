@@ -64,4 +64,29 @@ After this, you can delete `requirements.txt` if desired.
 7. You can now execute the software as usual.
 
 **Note**: Throughout this guide, `pip3` and `pip` are interchangeable, as are `miniconda` and `miniconda3`.
-You can copy the content 
+
+
+Steps to Set Up Your Development Environment
+(The steps below start from 8 as you've mentioned there are already 7 steps ahead)
+
+<font color="red">
+8. Install Homebrew
+
+Ensure you have Homebrew installed. If you haven't, follow the instructions below:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+9. Download the Brewfile
+
+Navigate to the provided GitHub page and download the Brewfile I've uploaded.
+
+10. Install the Dependencies
+
+Once you have the Brewfile, open your terminal, navigate to the directory where you downloaded the Brewfile, and run:
+
+```bash
+brew bundle install
+```
+</font>
