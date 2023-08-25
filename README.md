@@ -66,10 +66,7 @@ After this, you can delete `requirements.txt` if desired.
 **Note**: Throughout this guide, `pip3` and `pip` are interchangeable, as are `miniconda` and `miniconda3`.
 
 
-Steps to Set Up Your Development Environment
-(The steps below start from 8 as you've mentioned there are already 7 steps ahead)
-
-<font color="red">
+# New Steps if you are failing the Senti analysis (may not succeed - in beta testing still)
 8. Install Homebrew
 
 Ensure you have Homebrew installed. If you haven't, follow the instructions below:
